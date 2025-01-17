@@ -1,0 +1,6 @@
+<div class="time-div" (click)="startGame()">{{minutesString()}}:{{secondsString()}}</div>
+<div class="score-div">
+  <img class="logo-img" src="{{homeTeamLogo}}" alt="{{homeTeamName}}" (click)="homeTeamClick()">
+  {{scoreHome}} - {{scoreAway}}
+  <img class="logo-img" src="{{awayTeamLogo}}" alt="{{awayTeamName}}" (click)="awayTeamClick()">
+</div>
